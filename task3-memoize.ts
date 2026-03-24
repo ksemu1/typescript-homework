@@ -25,7 +25,6 @@ function memoize<T extends (...args: Primitive[]) => any>(
     }) as T;
 }
 
-// Пример использования
 const slowAdd = (a: number, b: number): number => {
     console.log("Вычисление...");
     return a + b;
