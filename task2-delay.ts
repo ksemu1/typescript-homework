@@ -1,0 +1,15 @@
+/*
+Задание 2: Реализуйте delay
+Требования:
+- delay(ms) возвращает промис
+- Промис резолится через ms миллисекунд
+*/
+
+function delay(ms: number): Promise<void> {
+    return new Promise((resolve) => {
+        setTimeout(resolve, ms);
+    });
+}
+
+// Пример использования
+delay(500).then(() => console.log("Готово через 500мс"));
