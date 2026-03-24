@@ -1,0 +1,17 @@
+{
+  "name": "typescript-homework",
+  "version": "1.0.0",
+  "description": "Домашнее задание по TypeScript",
+  "scripts": {
+    "build": "tsc",
+    "start1": "node dist/task1-promise-all.js",
+    "start2": "node dist/task2-delay.js",
+    "start3": "node dist/task3-memoize.js",
+    "start4": "node dist/task4-typed-object.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.2"
+  },
+  "author": "Ваше Имя",
+  "license": "MIT"
+}
